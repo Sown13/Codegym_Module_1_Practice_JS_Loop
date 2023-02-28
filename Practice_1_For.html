@@ -2,9 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Thực hành vòng lặp For</title>
 </head>
 <body>
-
+<h1> Bài thực hành vòng lặp for - 1</h1>
+<input type="button" value="let 's loop" onclick="loopFivetime()">
+<br>
+<br>
+<br>
+<h1> Bài thực hành vòng lặp for - 2</h1>
+<input type="button" id="total" value="tính"><label for="total">tính tổng từ 1 đến số bạn nhập vào</label>
 </body>
+<script>
+    function loopFivetime() {
+        let i;
+        let text = ""
+        for (i = 0; i < 5; i++) {
+            text += "Dòng này sẽ hiển thị 5 lần i tăng dần" + i + "<br>";
+        }
+        document.write(text)
+    }
+</script>
+<script src="loop_practice_1_for.js"></script>
 </html>
